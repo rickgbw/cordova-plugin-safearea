@@ -32,13 +32,8 @@ The plugin returns a JSON object with the screen sizes.
 
 Return values:
 
-* `width` &lt;Number&gt; − screen width in pixels
-* `height` &lt;Number&gt; − screen height in pixels
-* `xdpi` &lt;Number&gt; − physical pixels per inch of the screen in the X dimension
-* `ydpi` &lt;Number&gt; − physical pixels per inch of the screen in the Y dimension
-* `diameter` &lt;Number&gt; − screen diameter in inches (rounded to two decimals)
-* `densityValue` &lt;Number&gt; − density point (`0.75`, `1.0`, `1.5`, `2.0`, `3.0`, `4.0`)
-* `densityBucket` &lt;String&gt; − density bucket (`ldpi`, `mdpi`, `hdpi`, `xhdpi`, `xxhdpi`, `xxxhdpi`)
+* `top` &lt;Number&gt; − safe area top in pixels
+* `bottom` &lt;Number&gt; − safe area bottom in pixels
 
 ## LICENSE
 

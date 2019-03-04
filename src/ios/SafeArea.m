@@ -22,8 +22,8 @@
     NSString *saBottomStr = [[NSNumber numberWithFloat:bottomPadding] stringValue];
 
     NSMutableDictionary* devProps = [NSMutableDictionary dictionaryWithCapacity:2];
-    [devProps setObject:screenWidthStr forKey:@"top"];
-    [devProps setObject:screenHeightStr forKey:@"bottom"];
+    [devProps setObject:saTopStr forKey:@"top"];
+    [devProps setObject:saBottomStr forKey:@"bottom"];
 
     NSDictionary* ret = [NSDictionary dictionaryWithDictionary:devProps];
     return ret;
