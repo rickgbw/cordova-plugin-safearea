@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-safearea",
+  "version": "1.0.0",
+  "description": "A cordova plugin to get the size of the iPhone X safe area",
+  "cordova": {
+    "id": "cordova-plugin-safearea",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickgbw/cordova-plugin-safearea.git"
+  },
+  "keywords": [
+    "cordova",
+    "iphone x",
+    "safe area",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Henrique Moreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickgbw/cordova-plugin-safearea/issues"
+  },
+  "homepage": "https://github.com/rickgbw/cordova-plugin-safearea#readme"
+}

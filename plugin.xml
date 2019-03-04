@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="cordova-plugin-safearea"
+  version="1.0.0">
+
+  <name>safearea</name>
+  <description>A cordova plugin to get the physical size of iPhone X safe area</description>
+  <license>MIT</license>
+  <keywords>cordova,safe area, iphone x</keywords>
+  <repo>https://github.com/rickgbw/cordova-plugin-safearea</repo>
+  <issue>https://github.com/rickgbw/cordova-plugin-safearea/issues</issue>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+
+  <js-module src="www/safearea.js" name="safearea">
+    <clobbers target="window.plugins.safearea" />
+  </js-module>
+
+  <!-- ios -->
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="SafeArea">
+        <param name="ios-package" value="SafeArea" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/SafeArea.h"/>
+    <source-file src="src/ios/SafeArea.m"/>
+  </platform>
+</plugin>
